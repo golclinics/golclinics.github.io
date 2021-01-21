@@ -201,7 +201,6 @@ p {
     font-size: 28px;
     line-height: 42px;
     font-weight: unset;
-    text-transform: capitalize;
     max-width: 730px;
     margin: 0 auto;
 }
