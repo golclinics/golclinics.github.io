@@ -377,6 +377,19 @@ p {
     margin: 0;
 }
 
+.table th {
+    border-right: 1px solid rgb(25, 25, 54);
+    color: black
+  }
+.table tr td {
+    border-right: 1px solid rgb(25, 25, 54);
+    color: black
+  }
+  
+  /* .table tr td:last-of-type {
+    border: none;
+  } */
+
 .about-box span {
     font-size: 20px;
     opacity: 0.3;
@@ -421,7 +434,7 @@ p {
     width: 10px;
     border-radius: 50%;
     height: 10px;
-    margin: 0px 2px filter: Alpha(Opacity=50);
+    margin: 0px 2px filter Alpha(Opacity=50);
     background: #ff5858;
     -webkit-transition: all 0.15s linear;
     -moz-transition: all 0.15s linear;
