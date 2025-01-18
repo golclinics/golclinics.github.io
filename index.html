@@ -496,7 +496,7 @@
             </section>
             <!-- team end -->
         <!-- team start -->
-        <section class="section" id="coaches">
+        <section class="section" id="coaches1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -1255,6 +1255,7 @@
             // the good old jQuery to the rescue :)
 
             // add the number of coaches on the title
+            $("#coaches1 .section-title h2").append(" <span class='badge badge-warning'>" + $("#coaches1 .col-lg-2").length + "</span>");
             $("#coaches .section-title h2").append(" <span class='badge badge-warning'>" + $("#coaches .col-lg-2").length + "</span>");
             // add the number of mentors on the title
             $("#mentors .section-title h2").append(" <span class='badge badge-warning'>" + $("#mentors .col-lg-2").length + "</span>");
